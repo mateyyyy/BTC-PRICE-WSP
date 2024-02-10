@@ -15,3 +15,4 @@ Este proyecto implementa un bot de WhatsApp que responde con el precio actual de
 
 ```bash
 git clone https://github.com/tu-usuario/whatsapp-bitcoin-bot.git
+![image](https://github.com/mateyyyy/BTC-PRICE-WSP/assets/65136286/6772b438-3a83-4d38-9c98-e2abbe06f19d)
