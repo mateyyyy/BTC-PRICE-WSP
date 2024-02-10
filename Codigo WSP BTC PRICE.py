@@ -18,9 +18,9 @@ def obtener_precio_bitcoin():
 
 def enviar():
     # **Reemplaza estos valores con los tuyos**
-    token = "EAAMk2yjrUI4BO3L8kzBEHJJpi0OplT2vFqOICHxEpKS0Nqw0q4tljcykyxrFzOybYVsNcxF7i26Vp9yg8P2ZChbkEQIjpJZBwB1fgCgJZCZCYjYhvTH0lOxCxZBFpR4ZB0cHxUWHn8iGbPH3DLD1HFmm6x09Xte5Fr03GVD0mbfrg27BcZAoOvaC7Rfnar5B1Vc0NiYHP9tODDlZCHP4uyAZD"
-    idNumeroTelefono = "108720192163176"
-    telefonoEnvia = "542657541156"
+    token = ""
+    idNumeroTelefono = ""
+    telefonoEnvia = ""
     precio_bitcoin = obtener_precio_bitcoin()
     textoMensaje = f"Precio del Bitcoin en USD: {precio_bitcoin}"
     mensajeWa = WhatsApp(token, idNumeroTelefono)
@@ -32,7 +32,7 @@ def enviar():
 def recibirMsg():
     if request.method == "GET":
         # SI EL TOKEN ES IGUAL AL QUE RECIBIMOS
-        if request.args.get('hub.verify_token') == "HolaNovato":
+        if request.args.get('hub.verify_token') == "":
             # ESCRIBIMOS EN EL NAVEGADOR EL VALOR DEL RETO RECIBIDO DESDE FACEBOOK
             return request.args.get('hub.challenge')
         else:
