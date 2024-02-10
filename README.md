@@ -1,4 +1,4 @@
-# WhatsApp Bitcoin Price Bot
+![image](https://github.com/mateyyyy/BTC-PRICE-WSP/assets/65136286/45da8be5-6236-4e61-98c8-d6f627ca04a8)# WhatsApp Bitcoin Price Bot
 
 Este proyecto implementa un bot de WhatsApp que responde con el precio actual de Bitcoin en USD cada vez que se le envía el mensaje "BTC". Utiliza la biblioteca Flask para manejar las solicitudes HTTP y la biblioteca ccxt para obtener el precio de Bitcoin desde el intercambio Binance.
 
@@ -15,4 +15,6 @@ Este proyecto implementa un bot de WhatsApp que responde con el precio actual de
 
 ```bash
 git clone https://github.com/tu-usuario/whatsapp-bitcoin-bot.git
-![image](https://github.com/mateyyyy/BTC-PRICE-WSP/assets/65136286/6772b438-3a83-4d38-9c98-e2abbe06f19d)
+```
+![image](https://github.com/mateyyyy/BTC-PRICE-WSP/assets/65136286/d6462eeb-fca9-4e39-8994-31e48e7cbd4e)
+
